@@ -1,7 +1,7 @@
 import React from "react";
-import ImageComponent from "./Navbar/ImageComponent";
-import { DropdownMenuComponent } from "./Navbar/DropMenuComponent";
-import { Button } from "../ui/button";
+import ImageComponent from "./ImageComponent";
+import { DropdownMenuComponent } from "./DropMenuComponent";
+import { Button } from "../../ui/button";
 
 export default function NavMenu() {
   return (
