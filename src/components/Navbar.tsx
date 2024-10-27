@@ -1,6 +1,6 @@
 import React from "react";
-import ImageComponent from "./shared/ImageComponent";
-import NavItem from "./shared/NavItem";
+import ImageComponent from "./shared/Navbar/ImageComponent";
+import NavItem from "./shared/Navbar/NavItem";
 import NavMenu from "./shared/NavMenu";
 
 export default function Navbar() {
