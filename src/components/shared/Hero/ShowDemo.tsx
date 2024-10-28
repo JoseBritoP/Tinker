@@ -4,7 +4,7 @@ import React from "react";
 export default function ShowDemo() {
   // TODO: Gradiant bg
   return (
-    <div className="relative flex h-full w-full justify-center bg-sky-200">
+    <div className="relative flex h-full w-full justify-center">
       <Image
         src="/assets/Gradient.svg"
         alt="gradient"
