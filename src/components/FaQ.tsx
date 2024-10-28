@@ -31,6 +31,7 @@ const items = [
 ];
 
 export default function FaqAndQuestions() {
+  // TODO: check styles
   return (
     <section className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6 justify-center px-40">
       <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]">
