@@ -16,7 +16,7 @@ export default function PricingButtons({
 }: PricingButtonsProps) {
   return (
     <>
-      <Button className={`${className} ${icon && 'flex justify-between items-center py-4 hover:bg-sky-50'}`} variant="menu">
+      <Button className={`${className} ${icon && 'flex justify-evenly items-center  py-4 hover:bg-sky-50'}`} variant="menu">
         {label}
         {icon && (
           <ImageComponent
