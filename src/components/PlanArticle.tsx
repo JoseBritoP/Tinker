@@ -53,7 +53,7 @@ export default function PlanArticle({ item }: PlanArticle) {
             ))}
         </ul>
       </div>
-      <button className={`"mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium"`}>
+      <button className={`mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium transition-colors duration-300 ease-linear hover:bg-sky-50`}>
         {item.buttonLabel}
       </button>
     </article>
