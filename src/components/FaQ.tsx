@@ -33,12 +33,12 @@ const items = [
 export default function FaqAndQuestions() {
   // TODO: check styles
   return (
-    <section className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6 justify-center px-40">
-      <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]">
-        <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base">
+    <section className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row lg:gap-x-6 justify-center px-40 lg:px-10 ">
+      <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px] ">
+        <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base text-start">
           Frequently Asked Questions
         </h3>
-        <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+        <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[39px] lg:leading-[50px]">
           Lets clarify some of your questions
         </h1>
         <p className="text-[#36485C] pb-[24px]">
